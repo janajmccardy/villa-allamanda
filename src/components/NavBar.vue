@@ -23,7 +23,7 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+  <header class="bg-ocean-dark shadow-sm sticky top-0 z-50">
     <!-- Top bar with phone -->
     <div class="bg-coral text-white text-sm py-2 px-6 text-center relative overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-r from-transparent via-gold/20 to-transparent animate-shimmer"></div>
@@ -46,9 +46,11 @@ const toggleMenu = () => {
     <nav class="px-6 py-4 lg:px-12">
       <div class="flex items-center justify-between">
         <!-- Logo -->
-        <RouterLink to="/" class="flex items-center gap-2">
-          <img src="/favicon.png" alt="Villa Allamanda" class="h-10 w-auto" />
-          <span class="font-brand text-2xl text-ocean hidden sm:inline">Villa Allamanda</span>
+        <RouterLink to="/" class="flex items-center gap-3">
+          <div class="bg-ocean/80 rounded-full p-1.5 shadow-sm">
+            <img src="/favicon.png" alt="Villa Allamanda" class="h-9 w-auto" />
+          </div>
+          <span class="font-brand text-2xl text-white hidden sm:inline">Villa Allamanda</span>
         </RouterLink>
 
         <!-- Desktop nav -->
@@ -57,11 +59,11 @@ const toggleMenu = () => {
             v-for="link in navLinks"
             :key="link.path"
             :to="link.path"
-            class="text-gray-700 hover:text-ocean transition-colors text-sm font-medium"
+            class="text-white/90 hover:text-gold transition-colors text-sm font-medium"
           >
             {{ link.name }}
           </RouterLink>
-          <a :href="bookingUrl" target="_blank" class="btn-primary text-sm">
+          <a :href="bookingUrl" target="_blank" class="bg-gold text-white px-6 py-2 text-sm font-medium hover:bg-gold/90 transition-colors">
             Check Availability
           </a>
         </div>
@@ -69,7 +71,7 @@ const toggleMenu = () => {
         <!-- Mobile menu button -->
         <button
           @click="toggleMenu"
-          class="lg:hidden p-2 text-gray-700"
+          class="lg:hidden p-2 bg-ocean/80 rounded-full shadow-sm text-white"
           aria-label="Toggle menu"
         >
           <svg v-if="!isMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -82,18 +84,18 @@ const toggleMenu = () => {
       </div>
 
       <!-- Mobile nav -->
-      <div v-if="isMenuOpen" class="lg:hidden mt-4 pb-4 border-t pt-4">
+      <div v-if="isMenuOpen" class="lg:hidden mt-4 pb-4 border-t border-white/20 pt-4">
         <div class="flex flex-col gap-3">
           <RouterLink
             v-for="link in navLinks"
             :key="link.path"
             :to="link.path"
-            class="text-gray-700 hover:text-ocean transition-colors py-2"
+            class="text-white/90 hover:text-gold transition-colors py-2"
             @click="isMenuOpen = false"
           >
             {{ link.name }}
           </RouterLink>
-          <a :href="bookingUrl" target="_blank" class="btn-primary text-center mt-2">
+          <a :href="bookingUrl" target="_blank" class="bg-gold text-white text-center py-3 mt-2 font-medium hover:bg-gold/90 transition-colors">
             Check Availability
           </a>
         </div>

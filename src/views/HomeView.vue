@@ -102,7 +102,7 @@ const highlights = [
       </button>
 
       <!-- Content -->
-      <div class="relative z-10 text-center text-white px-6 max-w-4xl">
+      <div class="relative z-10 text-center text-white px-6 py-12 md:py-16 max-w-4xl">
         <p class="text-gold font-bold tracking-[0.2em] uppercase text-md mb-3">Your Island Escape</p>
         <img
           src="/favicon.png"
