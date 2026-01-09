@@ -107,7 +107,7 @@ const handleSubmit = () => {
               <p class="text-white/80 text-sm leading-relaxed">
                 From Governor's Harbour Airport, travel south on Queen's Highway for approximately
                 8 minutes. Turn left onto Casuarina Avenue (opposite our sign), travel up the hill,
-                and turn left at Jacaranda Drive. Villa Allamanda is the second property on the left.
+                and turn left at Jacaranda Drive. Villa Allamanda, Eleuthera is the second property on the left.
               </p>
               <RouterLink to="/getting-here" class="text-gold hover:text-white transition-colors text-sm font-medium mt-3 inline-block">
                 Full Directions →

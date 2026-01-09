@@ -50,7 +50,7 @@ const toggleMenu = () => {
           <div class="bg-ocean/80 rounded-full p-1.5 shadow-sm">
             <img src="/favicon.png" alt="Villa Allamanda" class="h-9 w-auto" />
           </div>
-          <span class="font-brand text-2xl text-white hidden sm:inline">Villa Allamanda</span>
+          <span class="font-brand text-2xl text-white hidden sm:inline">Villa Allamanda, Eleuthera</span>
         </RouterLink>
 
         <!-- Desktop nav -->

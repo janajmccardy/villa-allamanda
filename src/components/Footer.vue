@@ -29,7 +29,7 @@ const whatsappUrl = 'https://wa.me/12423597766'
       <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
         <!-- About -->
         <div>
-          <h3 class="font-brand text-xl mb-4">Villa Allamanda</h3>
+          <h3 class="font-brand text-xl mb-4">Villa Allamanda, Eleuthera</h3>
           <p class="text-white/80 leading-relaxed">
             An exquisite boutique hotel on the island of Eleuthera, Bahamas. Experience modern
             Bahamian island-style decor with breathtaking hilltop views.

@@ -214,7 +214,7 @@ const rates = [
           <div class="bg-white/95 backdrop-blur-sm p-8 md:p-12 text-center shadow-lg">
             <h2 class="font-brand text-3xl text-ocean mb-6">Ready to Book?</h2>
             <p class="text-gray-700 mb-8 text-lg">
-              Check availability and reserve your room at Villa Allamanda.
+              Check availability and reserve your room at Villa Allamanda, Eleuthera.
             </p>
             <a :href="bookingUrl" target="_blank" class="bg-coral hover:bg-coral/90 text-white px-8 py-3 font-medium tracking-wide inline-block transition-colors">
               Check Availability & Book

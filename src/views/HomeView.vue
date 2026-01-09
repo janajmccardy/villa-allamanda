@@ -6,7 +6,7 @@ const carRentalUrl = 'https://eleutheraislandrentacar.com/'
 
 // Hero carousel images - sunset, view, and property images only
 const heroImages = [
-  { src: '/images/VA night.jpg', caption: 'Welcome Home...Villa Allamanda' },
+  { src: '/images/VA signature day.jpg', caption: 'Welcome Home...Villa Allamanda, Eleuthera' },
   { src: '/images/301 corner view sunset.jpg', caption: 'Breathtaking Sunset Views' },
   { src: '/images/VA distance day.jpg', caption: 'Nestled on Eleuthera\'s Hilltop' },
   { src: '/images/VA distance evening .jpg', caption: 'Evening Tranquility' },
@@ -110,10 +110,10 @@ const highlights = [
           class="h-16 md:h-24 w-auto mx-auto mb-4"
         />
         <h1 class="font-brand text-5xl md:text-7xl mb-3">
-          Villa Allamanda
+          Villa Allamanda, Eleuthera
         </h1>
         <p class="text-lg md:text-xl font-light text-white/90 mb-2">
-          Eleuthera, Bahamas
+          Governor's Harbour, Eleuthera, The Bahamas
         </p>
         <!-- Dynamic Caption -->
         <p class="text-base text-gold/90 max-w-2xl mx-auto mb-6 leading-relaxed italic min-h-[1.5em]">
@@ -196,7 +196,7 @@ const highlights = [
         <div class="bg-white/95 backdrop-blur-sm p-8 md:p-12 text-center shadow-lg border-t-4 border-gold">
           <h2 class="font-brand text-3xl md:text-4xl text-ocean mb-6">Ready to Experience Eleuthera?</h2>
           <p class="text-gray-700 mb-8 text-lg">
-            Book your stay at Villa Allamanda and discover the tranquil beauty of the Bahamas.
+            Book your stay at Villa Allamanda, Eleuthera and discover the tranquil beauty of the Bahamas.
           </p>
           <a :href="bookingUrl" target="_blank" class="btn-coral">
             Check Availability

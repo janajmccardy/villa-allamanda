@@ -22,7 +22,7 @@ const driveTimes = [
         <div class="bg-ocean/90 backdrop-blur-sm text-white p-8 md:p-12 shadow-lg">
           <h1 class="font-brand text-4xl md:text-5xl mb-4">Getting Here</h1>
           <p class="text-white/80 text-lg">
-            How to reach Villa Allamanda in Eleuthera
+            How to reach Villa Allamanda, Eleuthera
           </p>
         </div>
       </div>
@@ -120,7 +120,7 @@ const driveTimes = [
 
         <!-- Drive Times -->
         <div class="bg-ocean/90 backdrop-blur-sm text-white p-6 md:p-8 shadow-lg">
-          <h2 class="font-brand text-2xl mb-4">Drive Times to Villa Allamanda</h2>
+          <h2 class="font-brand text-2xl mb-4">Drive Times to Villa Allamanda, Eleuthera</h2>
           <div class="space-y-3">
             <div
               v-for="drive in driveTimes"
@@ -162,7 +162,7 @@ const driveTimes = [
           <div class="text-white/90 leading-relaxed space-y-4">
             <p>
               Travel south on Queen's Highway for approximately 8 minutes (at average speed of 45 mph).
-              You will see the Villa Allamanda sign on the right side just opposite Casuarina Avenue
+              You will see the Villa Allamanda, Eleuthera sign on the right side just opposite Casuarina Avenue
               (on the left) leading to our property.
             </p>
             <p>
@@ -171,7 +171,7 @@ const driveTimes = [
             </p>
             <p>
               You will see our VA sign and logo at the turn off with street light right at the turn;
-              Villa Allamanda is the second property on the left.
+              Villa Allamanda, Eleuthera is the second property on the left.
             </p>
           </div>
         </div>

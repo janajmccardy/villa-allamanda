@@ -212,7 +212,7 @@ if (typeof window !== 'undefined') {
         <div class="bg-ocean/90 backdrop-blur-sm text-white p-8 md:p-12 shadow-lg">
           <h1 class="font-brand text-4xl md:text-5xl mb-4">Photo Gallery</h1>
           <p class="text-white/80 text-lg">
-            Explore Villa Allamanda and the beauty of Eleuthera
+            Explore Villa Allamanda, Eleuthera and the beauty of the island
           </p>
         </div>
       </div>
