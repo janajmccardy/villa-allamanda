@@ -48,7 +48,7 @@ const images: GalleryImage[] = [
 
   // Garden Cottage (101)
   { src: '/images/cottage-floorplan.jpg', alt: 'Garden Cottage floor plan', category: 'cottage', isFloorPlan: true },
-  { src: '/images/gardencottage2.jpg', alt: 'Garden Cottage exterior view', category: 'cottage' },
+  { src: '/images/gardencottage2.jpg', alt: 'Garden Cottage Loft floor plan', category: 'cottage', isFloorPlan: true },
   { src: '/images/gardencottage day.jpg', alt: 'Garden Cottage daytime', category: 'cottage' },
   { src: '/images/garden cottage night.jpg', alt: 'Garden Cottage at night', category: 'cottage' },
   { src: '/images/garden-ban.jpg', alt: 'Garden Cottage banner', category: 'cottage' },
@@ -76,8 +76,6 @@ const images: GalleryImage[] = [
   { src: '/images/effiency-floorplan.jpg', alt: 'Efficiency Suite floor plan', category: 'efficiency', isFloorPlan: true },
 
   // Queen Studio 2nd Floor (202, 203)
-  { src: '/images/Studio-2nd-Floor-Queen-Rm.jpg', alt: 'Queen Studio 2nd Floor', category: 'queen-2nd' },
-  { src: '/images/Studio-2nd-Floor-Queen-Rm203.jpg', alt: 'Queen Studio 203 2nd Floor', category: 'queen-2nd' },
   { src: '/images/202-01.jpg', alt: 'Room 202 view 1', category: 'queen-2nd' },
   { src: '/images/202-02.jpg', alt: 'Room 202 view 2', category: 'queen-2nd' },
   { src: '/images/202-03.jpg', alt: 'Room 202 view 3', category: 'queen-2nd' },
@@ -91,13 +89,12 @@ const images: GalleryImage[] = [
   { src: '/images/203-03.jpg', alt: 'Room 203 view 3', category: 'queen-2nd' },
   { src: '/images/203-04.jpg', alt: 'Room 203 view 4', category: 'queen-2nd' },
   { src: '/images/203-05.jpg', alt: 'Room 203 view 5', category: 'queen-2nd' },
-  // 2nd floor plan
+  // Queen 2nd floor plans
   { src: '/images/2nd-Floor-Plan.jpg', alt: '2nd Floor Plan', category: 'queen-2nd', isFloorPlan: true },
-  { src: '/images/2nd-Floor-Plan-1.jpg', alt: '2nd Floor Plan alternate', category: 'queen-2nd', isFloorPlan: true },
+  { src: '/images/Studio-2nd-Floor-Queen-Rm.jpg', alt: 'Queen Room 202 Floor Plan', category: 'queen-2nd', isFloorPlan: true },
+  { src: '/images/Studio-2nd-Floor-Queen-Rm203.jpg', alt: 'Queen Room 203 Floor Plan', category: 'queen-2nd', isFloorPlan: true },
 
   // Queen Studio 3rd Floor (302, 303)
-  { src: '/images/Studio-3rd-Floor-Queen-Rm.jpg', alt: 'Queen Studio 3rd Floor', category: 'queen-3rd' },
-  { src: '/images/Studio-3rd-Floor-Queen-Rm-303.jpg', alt: 'Queen Studio 303 3rd Floor', category: 'queen-3rd' },
   { src: '/images/302-01.jpg', alt: 'Room 302 view 1', category: 'queen-3rd' },
   { src: '/images/302-02.jpg', alt: 'Room 302 view 2', category: 'queen-3rd' },
   { src: '/images/302-03.jpg', alt: 'Room 302 view 3', category: 'queen-3rd' },
@@ -107,12 +104,12 @@ const images: GalleryImage[] = [
   { src: '/images/303-03.jpg', alt: 'Room 303 view 3', category: 'queen-3rd' },
   { src: '/images/303-04.jpg', alt: 'Room 303 view 4', category: 'queen-3rd' },
   { src: '/images/book-top(303).jpg', alt: 'Room 303 top view', category: 'queen-3rd' },
-  // 3rd floor plan
+  // Queen 3rd floor plans
   { src: '/images/3rd-Floor-Plan.jpg', alt: '3rd Floor Plan', category: 'queen-3rd', isFloorPlan: true },
-  { src: '/images/3rd-Floor-Plan-1.jpg', alt: '3rd Floor Plan alternate', category: 'queen-3rd', isFloorPlan: true },
+  { src: '/images/Studio-3rd-Floor-Queen-Rm.jpg', alt: 'Queen Room 302 Floor Plan', category: 'queen-3rd', isFloorPlan: true },
+  { src: '/images/Studio-3rd-Floor-Queen-Rm-303.jpg', alt: 'Queen Room 303 Floor Plan', category: 'queen-3rd', isFloorPlan: true },
 
   // King Suite 2nd Floor (201)
-  { src: '/images/King-2nd-Floor-Suite-201-with-Kit.-Din.jpg', alt: 'King Suite 2nd Floor with Kitchen', category: 'king-2nd' },
   { src: '/images/201-01.jpg', alt: 'Suite 201 view 1', category: 'king-2nd' },
   { src: '/images/201-02.jpg', alt: 'Suite 201 view 2', category: 'king-2nd' },
   { src: '/images/201-03.jpg', alt: 'Suite 201 view 3', category: 'king-2nd' },
@@ -132,14 +129,12 @@ const images: GalleryImage[] = [
   { src: '/images/201-17.jpg', alt: 'Suite 201 view 17', category: 'king-2nd' },
   { src: '/images/201-18.jpg', alt: 'Suite 201 view 18', category: 'king-2nd' },
   { src: '/images/201-19.jpg', alt: 'Suite 201 view 19', category: 'king-2nd' },
-  // 2nd floor plan (shared with queen-2nd)
+  // King 2nd floor plans
   { src: '/images/2nd-Floor-Plan.jpg', alt: '2nd Floor Plan', category: 'king-2nd', isFloorPlan: true },
-  { src: '/images/2nd-Floor-Plan-1.jpg', alt: '2nd Floor Plan alternate', category: 'king-2nd', isFloorPlan: true },
+  { src: '/images/King-2nd-Floor-Suite-201-with-Kit.-Din.jpg', alt: 'King Suite 201 Floor Plan', category: 'king-2nd', isFloorPlan: true },
 
   // King Suite 3rd Floor (301)
-  { src: '/images/King-3rd-Floor-Suite-301-with-Kit.-Din.jpg', alt: 'King Suite 3rd Floor with Kitchen', category: 'king-3rd' },
   { src: '/images/301-01.jpg', alt: 'Suite 301 view 1', category: 'king-3rd' },
-  { src: '/images/301-01-1.jpg', alt: 'Suite 301 view 1 alternate', category: 'king-3rd' },
   { src: '/images/301-02.jpg', alt: 'Suite 301 view 2', category: 'king-3rd' },
   { src: '/images/301-03.jpg', alt: 'Suite 301 view 3', category: 'king-3rd' },
   { src: '/images/301-04.jpg', alt: 'Suite 301 view 4', category: 'king-3rd' },
@@ -154,9 +149,9 @@ const images: GalleryImage[] = [
   { src: '/images/301-14.jpg', alt: 'Suite 301 view 14', category: 'king-3rd' },
   { src: '/images/301-15.jpg', alt: 'Suite 301 view 15', category: 'king-3rd' },
   { src: '/images/301 daytime - bed.jpg', alt: 'Suite 301 bedroom daytime', category: 'king-3rd' },
-  // 3rd floor plan (shared with queen-3rd)
+  // King 3rd floor plans
   { src: '/images/3rd-Floor-Plan.jpg', alt: '3rd Floor Plan', category: 'king-3rd', isFloorPlan: true },
-  { src: '/images/3rd-Floor-Plan-1.jpg', alt: '3rd Floor Plan alternate', category: 'king-3rd', isFloorPlan: true },
+  { src: '/images/King-3rd-Floor-Suite-301-with-Kit.-Din.jpg', alt: 'King Suite 301 Floor Plan', category: 'king-3rd', isFloorPlan: true },
 ]
 
 const filteredImages = computed(() => {
@@ -164,8 +159,13 @@ const filteredImages = computed(() => {
     // When "all" is selected, exclude floor plans
     return images.filter(img => !img.isFloorPlan)
   }
-  // When a specific room is selected, show all images including floor plans
-  return images.filter(img => img.category === selectedCategory.value)
+  // When a specific room is selected, show floor plans first, then other images
+  const categoryImages = images.filter(img => img.category === selectedCategory.value)
+  return categoryImages.sort((a, b) => {
+    if (a.isFloorPlan && !b.isFloorPlan) return -1
+    if (!a.isFloorPlan && b.isFloorPlan) return 1
+    return 0
+  })
 })
 
 // Lightbox
@@ -218,30 +218,23 @@ if (typeof window !== 'undefined') {
       </div>
     </section>
 
-    <!-- Divider -->
-    <div class="flex justify-center py-4">
-      <div class="w-24 h-1 bg-gold"></div>
-    </div>
-
     <!-- Category Filter -->
-    <section class="py-8 px-6">
-      <div class="max-w-6xl mx-auto">
-        <div class="bg-ocean/90 backdrop-blur-sm p-4 shadow-lg">
-          <div class="flex flex-wrap gap-2 justify-center">
-            <button
-              v-for="category in categories"
-              :key="category.id"
-              @click="selectedCategory = category.id"
-              :class="[
-                'px-4 py-2 text-sm font-medium transition-colors rounded-full',
-                selectedCategory === category.id
-                  ? 'bg-gold text-white'
-                  : 'bg-white/20 text-white hover:bg-white/30'
-              ]"
-            >
-              {{ category.name }}
-            </button>
-          </div>
+    <section class="py-6 px-6">
+      <div class="max-w-4xl mx-auto">
+        <div class="flex flex-wrap gap-2 justify-center">
+          <button
+            v-for="category in categories"
+            :key="category.id"
+            @click="selectedCategory = category.id"
+            :class="[
+              'px-4 py-2 text-sm font-medium transition-colors duration-200 rounded-full',
+              selectedCategory === category.id
+                ? 'bg-gold text-white'
+                : 'bg-ocean text-white hover:bg-coral'
+            ]"
+          >
+            {{ category.name }}
+          </button>
         </div>
       </div>
     </section>

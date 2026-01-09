@@ -4,14 +4,15 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const bookingUrl = 'http://www.freetobook.com/affiliates/reservation.php?w_id=11455&w_tkn=bHx0FjW3ZNZpfLK03Kg3epw1MFBG1I7XbJJ6ZQHUgzJUZs8dwaU8JZJsgedAH'
 const carRentalUrl = 'https://eleutheraislandrentacar.com/'
 
-// Hero carousel images
+// Hero carousel images - sunset, view, and property images only
 const heroImages = [
   { src: '/images/VA night.jpg', caption: 'Welcome Home...Villa Allamanda' },
   { src: '/images/301 corner view sunset.jpg', caption: 'Breathtaking Sunset Views' },
-  { src: '/images/kutchy header.jpg', caption: 'Your Island Escape Awaits' },
   { src: '/images/VA distance day.jpg', caption: 'Nestled on Eleuthera\'s Hilltop' },
-  { src: '/images/twincoves-beach.jpg', caption: 'Pink Sand Beneath Your Feet' },
-  { src: '/images/garden cottage night.jpg', caption: 'Tranquil Garden Cottage' },
+  { src: '/images/VA distance evening .jpg', caption: 'Evening Tranquility' },
+  { src: '/images/VA signature day.jpg', caption: 'Your Island Escape Awaits' },
+  { src: '/images/susnet.jpg', caption: 'Golden Hour Paradise' },
+  { src: '/images/302 view.jpg', caption: 'Views That Take Your Breath Away' },
 ]
 
 const currentSlide = ref(0)
@@ -102,7 +103,7 @@ const highlights = [
 
       <!-- Content -->
       <div class="relative z-10 text-center text-white px-6 max-w-4xl">
-        <p class="text-gold tracking-[0.3em] uppercase text-sm mb-3">Your Island Escape</p>
+        <p class="text-gold font-bold tracking-[0.2em] uppercase text-md mb-3">Your Island Escape</p>
         <img
           src="/favicon.png"
           alt="Villa Allamanda Logo"
@@ -162,7 +163,7 @@ const highlights = [
 
     <!-- Divider -->
     <div class="flex justify-center py-4">
-      <div class="w-24 h-1 bg-gold"></div>
+      <div class="w-24 h-1 bg-coral"></div>
     </div>
 
     <!-- Highlights Grid -->
@@ -174,9 +175,9 @@ const highlights = [
             :key="item.title"
             class="bg-ocean/90 backdrop-blur-sm text-white p-8 shadow-lg hover:bg-ocean transition-colors"
           >
-            <h3 class="font-brand text-2xl mb-4">{{ item.title }}</h3>
+            <h3 class="font-brand text-2xl mb-4 text-gold">{{ item.title }}</h3>
             <p class="text-white/80 mb-6 leading-relaxed">{{ item.description }}</p>
-            <RouterLink :to="item.link" class="text-gold font-medium hover:text-white transition-colors">
+            <RouterLink :to="item.link" class="text-coral font-medium hover:text-gold transition-colors">
               {{ item.linkText }} →
             </RouterLink>
           </div>
@@ -192,12 +193,12 @@ const highlights = [
     <!-- CTA Section -->
     <section class="py-16 px-6">
       <div class="max-w-2xl mx-auto">
-        <div class="bg-white/95 backdrop-blur-sm p-8 md:p-12 text-center shadow-lg">
+        <div class="bg-white/95 backdrop-blur-sm p-8 md:p-12 text-center shadow-lg border-t-4 border-gold">
           <h2 class="font-brand text-3xl md:text-4xl text-ocean mb-6">Ready to Experience Eleuthera?</h2>
           <p class="text-gray-700 mb-8 text-lg">
             Book your stay at Villa Allamanda and discover the tranquil beauty of the Bahamas.
           </p>
-          <a :href="bookingUrl" target="_blank" class="btn-primary bg-gold hover:bg-gold/90">
+          <a :href="bookingUrl" target="_blank" class="btn-coral">
             Check Availability
           </a>
         </div>
