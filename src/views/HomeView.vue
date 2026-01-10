@@ -120,11 +120,13 @@ const highlights = [
           {{ heroImages[currentSlide].caption }}
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-          <a :href="bookingUrl" target="_blank" class="btn-primary bg-gold hover:bg-gold/90">
-            Book a Room
+          <a :href="bookingUrl" target="_blank" class="bg-gold hover:bg-gold/90 text-white px-10 py-4 text-center transition-colors shadow-lg">
+            <span class="block text-xl font-bold tracking-wide">Book a Room</span>
+            <span class="block text-[10px] text-white/70 leading-tight">Villa Allamanda, Eleuthera</span>
           </a>
-          <a :href="carRentalUrl" target="_blank" class="btn-outline border-white text-white hover:bg-white hover:text-ocean">
-            Rent a Car
+          <a :href="carRentalUrl" target="_blank" class="btn-eriac px-10 py-4 text-center transition-colors shadow-lg">
+            <span class="block text-xl font-bold tracking-wide">Rent a Car</span>
+            <span class="block text-[10px] opacity-70 leading-tight">Eleuthera Island Rent-a-Car</span>
           </a>
         </div>
 
