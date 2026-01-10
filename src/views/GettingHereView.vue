@@ -2,9 +2,9 @@
 const carRentalUrl = 'https://eleutheraislandrentacar.com/'
 
 const airlines = [
-  { name: 'Bahamas Air', website: 'www.bahamasair.com', phone: '(242) 702-4140' },
-  { name: 'Pineapple Air', website: 'www.pineappleair.com', phone: '(242) 377-0412' },
-  { name: 'Southern Air', website: 'www.southernaircharter.com', phone: '(242) 377-2014' },
+  { name: 'Bahamas Air', website: 'www.bahamasair.com', phone: '1 (242) 702-4140' },
+  { name: 'Pineapple Air', website: 'www.pineappleair.com', phone: '1 (242) 377-0412' },
+  { name: 'Southern Air', website: 'www.southernaircharter.com', phone: '1 (242) 377-2014' },
 ]
 
 const driveTimes = [
@@ -108,7 +108,7 @@ const driveTimes = [
               href="tel:2423232166"
               class="text-white/80 hover:text-white transition-colors mt-2 sm:mt-0"
             >
-              (242) 323-2166
+              1 (242) 323-2166
             </a>
           </div>
         </div>
@@ -159,9 +159,10 @@ const driveTimes = [
         <!-- Driving Directions -->
         <div class="bg-ocean/90 backdrop-blur-sm text-white p-6 md:p-8 shadow-lg">
           <h2 class="font-brand text-2xl mb-4">Driving Directions from Governor's Harbour Airport</h2>
+          <p class="text-gold mb-4 font-medium">Estimated travel time: 8-10 minutes</p>
           <div class="text-white/90 leading-relaxed space-y-4">
             <p>
-              Travel south on Queen's Highway for approximately 8 minutes (at average speed of 45 mph).
+              Travel south on Queen's Highway for approximately 8-10 minutes (at average speed of 45 mph).
               You will see the Villa Allamanda, Eleuthera sign on the right side just opposite Casuarina Avenue
               (on the left) leading to our property.
             </p>
